@@ -65,11 +65,11 @@ public class Enemy extends Ship {
 //                }
 //                break;
 //            case FIGHT:
-//                reloadTimer += deltaTime;
-//                if (reloadTimer >= reloadInterval) {
-//                    reloadTimer = 0f;
-//                    shoot();
-//                }
+                reloadTimer += deltaTime;
+                if (reloadTimer >= reloadInterval) {
+                    reloadTimer = 0f;
+                    shoot();
+                }
                 if(getBottom() < worldBounds.getBottom()) {
 //                    mainShip.damage(bulletDamage);
                     boom();
