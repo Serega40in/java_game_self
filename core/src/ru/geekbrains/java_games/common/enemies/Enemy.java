@@ -75,6 +75,10 @@ public class Enemy extends Ship {
                     boom();
                     destroy();
                 }
+                if(!isOutside(mainShip)) {
+                    boom();
+                    destroy();
+                }
 //                break;
 //            default:
 //                throw new RuntimeException("Unknown state = " + state);
