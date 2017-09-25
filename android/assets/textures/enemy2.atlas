@@ -1,0 +1,26 @@
+
+enemy2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+flat
+  rotate: false
+  xy: 4, 664
+  size: 810, 1080
+  orig: 810, 1080
+  offset: 0, 0
+  index: -1
+we
+  rotate: false
+  xy: 4, 4
+  size: 810, 652
+  orig: 810, 652
+  offset: 0, 0
+  index: -1
+key
+  rotate: false
+  xy: 822, 1298
+  size: 492, 446
+  orig: 492, 446
+  offset: 0, 0
+  index: -1
